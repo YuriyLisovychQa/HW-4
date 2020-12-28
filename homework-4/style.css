@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   --white: #FFF;
+   --black: #000;
+   --orange: #EE3D1B;
+   --pink: #D52047;
+}
+
+body, html {
+   color: var(--orange);
+   font-family: 'Lato', sans-serif;
+   min-height: 100vh;
+   background-image: url(png/Rectangle\ 3.png);
+   background-repeat: no-repeat;
+}
+
+h1 {
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   color: var(--pink);
+}
